@@ -1,5 +1,32 @@
-# self-supervised-histopathology
-Pretrained model for self supervised histopathology
+# Self supervised learning for digital histopathology
+
+## Sample clustering results
+
+<table border="0">
+ <tr>
+    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/rand.png" data-canonical-src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/rand.png" width="300" height="300" /></td>
+     <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/clusters.png" data-canonical-src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/clusters.png" width="300" height="300" />
+ </tr>
+ <tr>
+</td>
+   <td><b style="font-size:30px">Random sampling</b></td>
+    <td>Sampling using K-means clustering of learned features</td>
+ </tr>
+</table>
+
+
+
+<table border="0">
+ <tr>
+    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/Selfsupunsupervisedimagesamples-1.png" width="300" height="150" /></td>
+    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/Selfsupunsupervisedimagesamples-2.png" width="300" height="150" /></td>
+    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/Selfsupunsupervisedimagesamples-3.png" width="300" height="150" /></td>
+ </tr>
+</table>
+
+
+
+## Pretrained model for self supervised histopathology
 
 You can download the model here, named **_ckpt_epoch_9.ckpt**:
 https://github.com/ozanciga/self-supervised-histopathology/releases/tag/1
