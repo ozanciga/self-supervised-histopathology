@@ -79,3 +79,15 @@ images = torch.rand((10, 3, 224, 224), device='cuda')
 
 out = model(images)
 ```
+
+# Citation
+Please use below to cite this paper if you find this repository useful or if you use pretrained models shared here in your research.
+
+```
+@article{SelfSupervisedHisto,
+  title={Self supervised contrastive learning for digital histopathology},
+  author={Ciga Ozan, Xu Tony, Martel Anne},
+  journal={arXiv preprint arXiv:2011.13971},
+  year={2020}
+}
+```
