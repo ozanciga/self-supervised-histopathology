@@ -1,4 +1,6 @@
-# Self supervised learning for digital histopathology
+# [Self supervised learning for digital histopathology](https://arxiv.org/abs/2011.13971)
+
+Read the paper on arXiv: [Self supervised learning for digital histopathology](https://arxiv.org/pdf/2011.13971.pdf)
 
 ## Sample clustering results
 
