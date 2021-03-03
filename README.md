@@ -1,6 +1,11 @@
-# [Self supervised learning for digital histopathology](https://arxiv.org/abs/2011.13971)
+# [Self supervised contrastive learning for digital histopathology](https://arxiv.org/abs/2011.13971)
 
-Read the paper on arXiv: [Self supervised learning for digital histopathology](https://arxiv.org/pdf/2011.13971.pdf)
+Read the paper on arXiv: [Self supervised contrastive learning for digital histopathology](https://arxiv.org/pdf/2011.13971.pdf)
+
+<img src="https://img.shields.io/badge/-UPDATE-red.svg" /> [![Resnet18 model release](https://img.shields.io/badge/NEW-MODEL-<GREEN>.svg)](https://github.com/ozanciga/self-supervised-histopathology/releases/tag/tenpercent)
+
+We are sharing a new model trained with more images. This model improves over our original paper and the ImageNet by a large margin! Click on the new model button above to download.
+
 
 ## Sample clustering results
 
@@ -30,8 +35,9 @@ Read the paper on arXiv: [Self supervised learning for digital histopathology](h
 
 ## Pretrained model for self supervised histopathology
 
-You can download the model here, named **_ckpt_epoch_9.ckpt**:
-https://github.com/ozanciga/self-supervised-histopathology/releases/tag/1
+You can download the model here with the **.ckpt** extension (The previous models are also accessible, however the newer one performs better on classification, regression and segmentation tasks):
+
+https://github.com/ozanciga/self-supervised-histopathology/releases/tag/tenpercent
 
 We save every 100th epoch, indexed starting from 0. 
 This checkpoint is epoch 1000, best augmentation settings (see the paper) with Lars optimizer.
