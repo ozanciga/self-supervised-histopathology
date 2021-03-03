@@ -6,33 +6,6 @@ Read the paper on arXiv: [Self supervised contrastive learning for digital histo
 
 We are sharing a new model trained with more images. This model improves over our original paper and the ImageNet by a large margin! Click on the new model button above to download.
 
-
-## Sample clustering results
-
-<table border="0">
- <tr>
-    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/rand.png" data-canonical-src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/rand.png" width="300" height="300" /></td>
-     <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/clusters.png" data-canonical-src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/clusters.png" width="300" height="300" />
- </tr>
- <tr>
-</td>
-   <td><b style="font-size:30px">Random sampling</b></td>
-    <td>Sampling using K-means clustering of learned features</td>
- </tr>
-</table>
-
-
-
-<table border="0">
- <tr>
-    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/Selfsupunsupervisedimagesamples-1.png" width="300" height="150" /></td>
-    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/Selfsupunsupervisedimagesamples-2.png" width="300" height="150" /></td>
-    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/Selfsupunsupervisedimagesamples-3.png" width="300" height="150" /></td>
- </tr>
-</table>
-
-
-
 ## Pretrained model for self supervised histopathology
 
 You can download the model here with the **.ckpt** extension (The previous models are also accessible, however the newer one performs better on classification, regression and segmentation tasks):
@@ -99,3 +72,30 @@ Please use below to cite this paper if you find this repository useful or if you
   year={2020}
 }
 ```
+
+
+## Sample clustering results
+
+<table border="0">
+ <tr>
+    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/images/rand.png" data-canonical-src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/rand.png" width="300" height="300" /></td>
+     <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/images/clusters.png" data-canonical-src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/clusters.png" width="300" height="300" />
+ </tr>
+ <tr>
+</td>
+   <td><b style="font-size:30px">Random sampling</b></td>
+    <td>Sampling using K-means clustering of learned features</td>
+ </tr>
+</table>
+
+
+
+<table border="0">
+ <tr>
+    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/images/Selfsupunsupervisedimagesamples-1.png" width="300" height="150" /></td>
+    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/images/Selfsupunsupervisedimagesamples-2.png" width="300" height="150" /></td>
+    <td><img src="https://raw.githubusercontent.com/ozanciga/self-supervised-histopathology/main/images/Selfsupunsupervisedimagesamples-3.png" width="300" height="150" /></td>
+ </tr>
+</table>
+
+
