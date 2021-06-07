@@ -22,7 +22,7 @@ import torchvision
 import torch
 
 
-MODEL_PATH = '_ckpt_epoch_9.ckpt'
+MODEL_PATH = 'tenpercent_resnet18.ckpt' #'_ckpt_epoch_9.ckpt'
 RETURN_PREACTIVATION = False  # return features from the model, if false return classification logits
 NUM_CLASSES = 4  # only used if RETURN_PREACTIVATION = False
 
