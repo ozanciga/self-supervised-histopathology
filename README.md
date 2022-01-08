@@ -66,10 +66,15 @@ Please use below to cite this paper if you find this repository useful or if you
 
 ```
 @article{SelfSupervisedHisto,
-  title={Self supervised contrastive learning for digital histopathology},
-  author={Ciga Ozan, Xu Tony, Martel Anne},
-  journal={arXiv preprint arXiv:2011.13971},
-  year={2020}
+title = {Self supervised contrastive learning for digital histopathology},
+journal = {Machine Learning with Applications},
+volume = {7},
+pages = {100198},
+year = {2022},
+issn = {2666-8270},
+doi = {https://doi.org/10.1016/j.mlwa.2021.100198},
+url = {https://www.sciencedirect.com/science/article/pii/S2666827021000992},
+author = {Ozan Ciga and Tony Xu and Anne Louise Martel}
 }
 ```
 
