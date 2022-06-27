@@ -1,3 +1,4 @@
+[![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Not%20Maintained-yellow.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
 # [Self supervised contrastive learning for digital histopathology](https://arxiv.org/abs/2011.13971)
 
 Read the paper on arXiv: [Self supervised contrastive learning for digital histopathology](https://arxiv.org/pdf/2011.13971.pdf)
